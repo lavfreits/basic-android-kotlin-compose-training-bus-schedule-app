@@ -1,23 +1,21 @@
 # Bus Schedule App
 
-This folder contains the source code for the Bus Schedule app codelab.
+## Visão Geral
+O Aplicativo de Horário de Ônibus é uma aplicação Android que fornece informações sobre horários de ônibus. Ele utiliza o Jetpack Compose para a interface do usuário e o Room para gerenciamento de banco de dados local. O aplicativo permite que os usuários visualizem o horário completo dos ônibus e horários específicos para diferentes paradas de ônibus.
 
-# Introduction
-The Bus Schedule app displays a list of bus stops and arrival times. Tapping a bus stop on the first
-screen will display a list of all arrival times for that particular stop.
+## Funcionalidades
+- Visualizar o horário completo dos ônibus.
+- Visualizar horários de ônibus para paradas específicas.
+- Interface de usuário responsiva usando Jetpack Compose.
+- Armazenamento de banco de dados local usando Room.
 
-The bus stops are stored in a Room database. Schedule items are represented by the `Schedule` class 
-and queries on the data table are made by the `ScheduleDao` class. The app includes a view model to
-access the `ScheduleDao` and format data to be display in a list.
+## Requisitos
+- Android Studio
+- Kotlin 1.6.10 ou superior
+- Android API Level 21 ou superior
 
-# Pre-requisites
-* Experience with Kotlin syntax.
-* Experience with Jetpack Compose.
-* How to create and run a project in Android Studio.
-* Basic knowledge of SQL databases and performing basic queries.
-
-# Getting Started
-1. Install Android Studio, if you don't already have it.
-2. Download the sample.
-3. Import the sample into Android Studio.
-4. Build and run the sample.
+## Instalação
+1. Clone o repositório
+2. Abra o projeto no Android Studio.
+3. Sincronize o projeto com os arquivos Gradle.
+4. Compile e execute o projeto em um emulador ou dispositivo físico.
