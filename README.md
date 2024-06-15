@@ -1,7 +1,7 @@
 # Bus Schedule App
 
 ## Visão Geral
-O Aplicativo de Horário de Ônibus é uma aplicação Android que fornece informações sobre horários de ônibus. Ele utiliza o Jetpack Compose para a interface do usuário e o Room para gerenciamento de banco de dados local. O aplicativo permite que os usuários visualizem o horário completo dos ônibus e horários específicos para diferentes paradas de ônibus.
+O Aplicativo de Horário de Ônibus é uma aplicação Android que fornece informações sobre horários de ônibus. Ele utiliza o Jetpack Compose para a interface do usuário e o Room para gerenciamento de banco de dados local. O aplicativo permite que os usuários visualizem o horário completo dos ônibus e horários específicos para diferentes paradas de ônibus. Esse projeto faz parte do codelab: [Practice: Build Bus Schedule app](https://developer.android.com/codelabs/basic-android-kotlin-compose-practice-bus-schedule-app?continue=https%3A%2F%2Fdeveloper.android.com%2Fcourses%2Fpathways%2Fandroid-basics-compose-unit-6-pathway-2&hl=pt-br#0).
 
 ## Funcionalidades
 - Visualizar o horário completo dos ônibus.
